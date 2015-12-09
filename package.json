@@ -1,11 +1,12 @@
 {
-  "name": "karma-jasmine-boilerplate",
+  "name": "karma-mocha-should-starter",
   "version": "1.0.0",
   "description": "0.0.1",
   "main": "karma.conf.js",
   "directories": {
     "test": "test"
   },
+  "test": "./node_modules/.bin/karma start karma.conf.js",
   "devDependencies": {
     "karma-chrome-launcher": "latest",
     "karma-firefox-launcher": "latest",
