@@ -1,0 +1,34 @@
+{
+  "name": "Karma-Mocha-Should",
+  "version": "0.0.0",
+  "description": "Karma runner + Mocha.js & Should.js Test framework starter kit",
+  "main": "karma.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+  ],
+  "author": "Stephan Ahlf",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://github.com/dgtlmonk/karma-jasmine-boilerplate",
+  "devDependencies": {
+    "karma-chrome-launcher": "latest",
+    "karma-firefox-launcher": "latest",
+    "karma-fixture": "latest",
+    "karma-html2js-preprocessor": "latest",
+    "karma-json-fixtures-preprocessor": "latest",
+    "karma-mocha": "latest",
+    "karma-should": "latest",
+    "should": "latest"
+  }
+}
